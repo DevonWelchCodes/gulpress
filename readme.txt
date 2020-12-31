@@ -1,4 +1,4 @@
-=== Smartt ===
+=== Smarttpress ===
 
 Contributors: automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
@@ -9,11 +9,11 @@ Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called Smartt.
+A starter theme called Smarttpress.
 
 == Description ==
 
-Description
+A theme for the Smartt.com Agency
 
 == Installation ==
 
@@ -25,7 +25,7 @@ Description
 
 = Does this theme support any plugins? =
 
-Smartt includes support for Infinite Scroll in Jetpack.
+Smarttpress includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 

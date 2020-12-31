@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package Smartt
+ * @package Smarttpress
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses smartt_header_style()
+ * @uses smarttpress_header_style()
  */
-function smartt_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'smartt_custom_header_args', array(
+function smarttpress_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'smarttpress_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'smartt_header_style',
+		'wp-head-callback'       => 'smarttpress_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'smartt_custom_header_setup' );
+add_action( 'after_setup_theme', 'smarttpress_custom_header_setup' );
 
-if ( ! function_exists( 'smartt_header_style' ) ) :
+if ( ! function_exists( 'smarttpress_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see smartt_custom_header_setup().
+	 * @see smarttpress_custom_header_setup().
 	 */
-	function smartt_header_style() {
+	function smarttpress_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
