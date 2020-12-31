@@ -1,0 +1,23 @@
+# Smarttpress Theme gitignore.
+*.log
+bundled
+dist
+
+# OSX generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package manager #
+node_modules/
+package-lock.json
+composer.lock
+yarn.lock
+
+# Error logs #
+wp-content/themes/dt-nimble-2/error_log

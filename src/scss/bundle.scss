@@ -1,0 +1,16 @@
+// Importing Tailwind
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+// Add imports here
+@import 'header';
+
+
+@import 'front-page';
+@import 'page-single';
+
+
+@import 'footer'
